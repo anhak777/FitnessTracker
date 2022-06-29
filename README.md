@@ -1,6 +1,6 @@
 ##### test test test
 
-Look through this after - https://github.com/NisanurBulut/FitnessTracker
+Look through this later - https://github.com/NisanurBulut/FitnessTracker
 
 # Packages
 - Angular Material : ng add @angular/material

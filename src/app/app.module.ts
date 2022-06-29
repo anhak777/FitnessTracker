@@ -1,3 +1,4 @@
+import { UIService } from './shared/ui.shared';
 import { StopTrainingComponent } from './training/current-training/stop-training.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MaterialModule } from './material.module';
@@ -54,7 +55,7 @@ import { AngularFireAuthModule } from '@angular/fire/compat/auth';
     // AngularFirestoreModule,
     AngularFireAuthModule
   ],
-  providers: [AuthService, TrainingService],
+  providers: [AuthService, TrainingService, UIService],
   bootstrap: [AppComponent],
   entryComponents: [StopTrainingComponent]
 })

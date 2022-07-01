@@ -1,4 +1,3 @@
-##### test test test
 
 Look through this later - https://github.com/NisanurBulut/FitnessTracker
 
@@ -6,8 +5,6 @@ Look through this later - https://github.com/NisanurBulut/FitnessTracker
 - Angular Material : ng add @angular/material
 - Angular Fle-Layout : npm i -s @angular/flex-layout @angular/cdk
 - AgularFire : ng add @angular/fire
-
-
 
 # FitnessTracker
 

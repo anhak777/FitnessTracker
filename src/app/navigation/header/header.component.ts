@@ -1,5 +1,5 @@
 import { AuthService } from './../../auth/auth.service';
-import { Subscription, Observable } from 'rxjs';
+import { Observable } from 'rxjs';
 import {
   Component,
   OnInit,
@@ -17,7 +17,6 @@ import { Store } from '@ngrx/store';
 export class HeaderComponent implements OnInit {
   @Output() sidenavToggle = new EventEmitter<void>();
   isAuth$: Observable<boolean>;
-  authSubscription: Subscription | undefined;
 
   constructor(private store: Store<fromRoot.State>, private authService: AuthService) {}
 

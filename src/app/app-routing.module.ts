@@ -7,7 +7,6 @@ const routes: Routes = [
   { path: '', component: WelcomeComponent },
   {
     path: 'training',
-    // loadChildren: './training/training.module#TrainingModule'
     loadChildren: () => import('./training/training.module').then(m => m.TrainingModule),
     canLoad: [AuthGuard]
   },

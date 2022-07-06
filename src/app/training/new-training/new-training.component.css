@@ -1,3 +1,20 @@
 .new-training {
   padding: 30px;
+  height: 80vh;
+}
+
+.new-training::before {
+  content: "";
+  background-image: url("../../../assets/Training.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+
+form {
+  max-height: 200px;
 }

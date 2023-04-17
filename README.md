@@ -1,11 +1,3 @@
-
-Look through this later - https://github.com/NisanurBulut/FitnessTracker
-
-# Packages
-- Angular Material : ng add @angular/material
-- Angular Fle-Layout : npm i -s @angular/flex-layout @angular/cdk
-- AgularFire : ng add @angular/fire
-
 # FitnessTracker
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
